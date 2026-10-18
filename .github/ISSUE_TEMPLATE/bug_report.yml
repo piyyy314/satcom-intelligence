@@ -1,0 +1,49 @@
+name: Bug Report
+description: Create a report to help us improve Tactical SatCom Intelligence
+title: "[BUG]: "
+labels: ["bug"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to report an issue in TSI!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Describe what bug or unexpected behavior occurred.
+      placeholder: Tell us what you see!
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Steps to Reproduce
+      description: What steps are needed to reproduce the issue?
+      placeholder: |
+        1. Open 'Security Tools' tab
+        2. Click on 'PQC Audit'
+        3. Attempt to verify signature ...
+    validations:
+      required: true
+  - type: dropdown
+    id: module-affected
+    attributes:
+      label: Affected Subsystem
+      options:
+        - "PQC Engine (ML-DSA / ML-KEM)"
+        - "Audit Trail & Debrief Exporter"
+        - "Look-Angle & Pointing Engine"
+        - "Link Budget & Rain Fade"
+        - "DarkLink Mesh / Web Serial"
+        - "AI Tactical Copilot"
+        - "Other / UI"
+    validations:
+      required: true
+  - type: input
+    id: browser-os
+    attributes:
+      label: Browser & Operating System
+      placeholder: e.g. Chrome 128 on Ubuntu 24.04 / macOS Sonoma
+    validations:
+      required: true

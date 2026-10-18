@@ -1,0 +1,56 @@
+{
+  "name": "satexpert-tactical-satcom-intelligence",
+  "version": "1.0.0",
+  "description": "Tactical SatCom Intelligence (TSI) - Post-Quantum Cryptographic (PQC) Satellite Ground Station & RF Operations Platform",
+  "license": "MIT",
+  "author": "SatExpert Engineering Team",
+  "homepage": "https://github.com/baalbek/satexpert-tactical-satcom-intelligence#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/baalbek/satexpert-tactical-satcom-intelligence.git"
+  },
+  "bugs": {
+    "url": "https://github.com/baalbek/satexpert-tactical-satcom-intelligence/issues"
+  },
+  "keywords": [
+    "satcom",
+    "vsat",
+    "satellite-communications",
+    "post-quantum-cryptography",
+    "pqc",
+    "nist-fips-204",
+    "nist-fips-203",
+    "ml-dsa",
+    "ml-kem",
+    "dilithium",
+    "kyber",
+    "tactical-communications",
+    "link-budget",
+    "mesh-networking",
+    "rf-engineering"
+  ],
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "lint": "tsc --noEmit",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "motion": "^12.38.0",
+    "pqc-dilithium": "^0.2.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3"
+  },
+  "devDependencies": {
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0",
+    "vite-plugin-top-level-await": "^1.6.0",
+    "vite-plugin-wasm": "^3.6.0"
+  }
+}
+

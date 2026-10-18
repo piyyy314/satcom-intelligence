@@ -1,0 +1,14 @@
+{
+  "name": "SatExpert Tactical SatCom Intelligence (TSI)",
+  "description": "A comprehensive professional toolkit for VSAT engineers, featuring real-time look-angle calculations, link budget estimations, an AI-powered tactical intelligence agent, NIST-standardized PQC signing, and off-grid mesh networking.",
+  "requestFramePermissions": [
+    "geolocation",
+    "microphone",
+    "camera",
+    "serial",
+    "usb",
+    "hid"
+  ],
+  "y7": [],
+  "Yp": []
+}

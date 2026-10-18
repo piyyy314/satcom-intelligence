@@ -1,0 +1,22 @@
+
+{
+  "short_name": "SatExpert TSI",
+  "name": "SatExpert Tactical SatCom Intelligence",
+  "icons": [
+    {
+      "src": "icon-192.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "icon-512.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#020617",
+  "background_color": "#020617",
+  "description": "A comprehensive professional toolkit for VSAT engineers, featuring real-time look-angle calculations, link budget estimations, and an AI-powered technical assistant for troubleshooting satellite connectivity."
+}
